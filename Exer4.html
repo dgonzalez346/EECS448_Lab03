@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link href = "exer4style.css"
+      rel = "stylesheet"
+      type = "text/css"/>
+    <script type="text/javascript"
+      src = "exer4.js">
+    </script>
+    <title> Text Changing Fun Time </title>
+  </head>
+  <body>
+    <h2>
+      Change the colors(0-255), width(0-800), go nuts.
+    </h2>
+
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+       eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+       aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+       voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+       sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+       mollit anim id est laborum.
+    </p>
+    <h3>
+      Border:<br>
+       Width: <input type="number" id="border_width" value = "5"min="0" max="800"><br>
+       Red: <input type="number" id="border_Red" value="0" min="0" max="255"><br>
+       Green: <input type="number" id="border_Green" value="0"min="0" max="255"> <br>
+       Blue: <input type="number" id="border_Blue" value="0"min="0" max="255"><br><br>
+      Background Color:<br>
+       Red: <input type="number" id="bg_Red" value="255"min="0" max="255"><br>
+       Green: <input type="number" id="bg_Green" value="255"min="0" max="255"> <br>
+       Blue: <input type="number" id="bg_Blue" value="255"min="0" max="255"><br> <br>
+       <input type="button" onclick="update_doc()" value="Check it out">
+    </h3>
+  </body>
+</html>
