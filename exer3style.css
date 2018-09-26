@@ -1,0 +1,39 @@
+body
+{
+  background-image: url("mountain_top.jpg");
+  background-color: yellow;
+}
+
+p
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  font-family: Sans-Serif;
+  color: white;
+  font-size: 16pt;
+  background-color: rgba(0,0,0,0.75);
+  padding: 0.5rem;
+}
+img
+{
+  border-radius: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+}
+a
+{
+  color: blue;
+}
+a:hover
+{
+  color:white;
+}
+#left{position:absolute; left: 0; top: 0; width: 50%;}
+#right {position: absolute; right: 0; top: 25%; width: 50%;}
