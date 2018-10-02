@@ -1,0 +1,86 @@
+body
+{
+  background-color: white;
+}
+
+h2
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 500px;
+}
+
+h3
+{
+
+  color: white;
+  margin: auto;
+  display: block;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0.5rem;
+}
+p
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  font-family: Sans-Serif;
+  color: white;
+  font-size: 16pt;
+  background-color: rgba(0,0,0,0.75);
+  padding: 0.5rem;
+}
+img
+{
+  border-radius: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+}
+a
+{
+  color: blue;
+}
+a:hover
+{
+  color:white;
+}
+input[type="radio"]{
+    vertical-align: baseline;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    font-family: Sans-Serif;
+    color: white;
+    font-size: 16pt;
+    background-color: rgba(0,0,0,0.75);
+}
+label{
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  font-family: Sans-Serif;
+  color: white;
+  font-size: 16pt;
+  background-color: rgba(0,0,0,0.75);
+
+}
+table, th, td {
+   border: 1px solid black;
+}
+#left{position:absolute; left: 0; top: 0; width: 50%;}
+#right {position: absolute; right: 0; top: 25%; width: 50%;}
