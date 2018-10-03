@@ -11,21 +11,30 @@
   <body>
   <form id = "frontendForm" action="customerBackend.php" onsubmit = "return validateForm()" method = "post">
     <h3> Select some products! </h3>
-    <p>product1: $1.00 <input type="number" name="product1" value=0 min=0 max=999><br>
-      product2: $5.00 <input type="number" name="product2" value=0 min=0 max=999><br>
-      product3: $50.00 <input type="number" name="product3" value=0 min=0 max=999><br>
+    <p>Lil Bub Coaster: $1.00 <input type="number" name="product1" value=0 min=0 max=999><br>
+      Lil Bub Mug: $5.00 <input type="number" name="product2" value=0 min=0 max=999><br>
+      Lil Bub French Press: $50.00 <input type="number" name="product3" value=0 min=0 max=999><br>
     </p>
+
     <h3> Select a mode of shipping! </h3>
+    <p>
       <label><input type="radio" name = "shipping" value=0 checked = "checked"> Free 7-day: $0.00</label><br>
       <label><input type="radio" name = "shipping" value=1> Overnight: $50.00</label><br>
       <label><input type="radio" name = "shipping" value=2> 3-day: $5.00</label><br>
+    </p>
     <h3> Log in! </h3>
     <p>
       Username:
-      <input type = "email" name="user"><br>
+      <input type = "email" name="user" placeholder="User@email.com..."><br>
       Password:
-      <input type = "text" name="passw"><br>
+      <input type = "password" name="passw" placeholder="Don't put anything secret in here..."><br>
       <input type="reset" value="Reset"> <input type = "submit">
     </p>
+      <br>
+      <h4> Disclaimer: Any product names, logos, brands and other trademarks or images featured
+        or referred to on this website are property of their respective trademark holders. These trademark holders
+        are not affiliated with the website. These trademark holders do not sponsor or endorse the website.
+      </h4>
+
   </form>
   </body>

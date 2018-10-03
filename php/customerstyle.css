@@ -1,6 +1,11 @@
 body
 {
   background-color: white;
+  text-align: center;
+  background-image: url("GJ_Bub.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 h2
@@ -9,6 +14,9 @@ h2
   margin-right: auto;
   display: block;
   width: 500px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0.5rem;
 }
 
 h3
@@ -21,12 +29,18 @@ h3
   background-color: rgba(0, 0, 0, 0.75);
   padding: 0.5rem;
 }
+h4{
+  font-size: 8pt;
+  width: 300px;
+  margin: auto;
+  display: block;
+}
 p
 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 450px;
+  width: 400px;
   text-overflow: ellipsis;
   word-break: keep-all;
   font-family: Sans-Serif;
@@ -52,18 +66,24 @@ a:hover
 {
   color:white;
 }
-input[type="radio"]{
-    vertical-align: baseline;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    text-overflow: ellipsis;
-    word-break: keep-all;
-    font-family: Sans-Serif;
-    color: white;
-    font-size: 16pt;
-    background-color: rgba(0,0,0,0.75);
+input[type="email"]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type="password"]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type="radio"]
+{
+    margin-top: -1px;
+    vertical-align: middle;
 }
 label{
   vertical-align: middle;
@@ -76,11 +96,19 @@ label{
   font-family: Sans-Serif;
   color: white;
   font-size: 16pt;
-  background-color: rgba(0,0,0,0.75);
 
 }
-table, th, td {
-   border: 1px solid black;
+th{
+  background-color: Lime;
+}
+td{
+  background-color: Fuchsia;
+}
+table, td, th {
+  border: 1px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #left{position:absolute; left: 0; top: 0; width: 50%;}
 #right {position: absolute; right: 0; top: 25%; width: 50%;}
